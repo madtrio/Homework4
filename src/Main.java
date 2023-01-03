@@ -43,17 +43,17 @@ public class Main {
         } else {
             System.out.println("Если возраст ребенка равен " + rideAge + ", то ему нельзя кататься!");
         }
-        if (rideAge >= 5 && rideAge <= 14 ) {
+        if (rideAge >= 5 && rideAge <= 14) {
             System.out.println(", то ему можно кататься в сопровождении родителей");
         }
         if (rideAge > 14) {
             System.out.println(", то ему можно кататься без сопровождения родителей");
         }
         System.out.println("Task 6");
-        int passengerNumber = 1;
+        int passengerNumber = 103;
         if (passengerNumber <= 102) {
             System.out.println("Заходите! В вагоне еще поместится " + (102 - passengerNumber) + " пассажиров");
-            if (passengerNumber <= 60 ) {
+            if (passengerNumber <= 60) {
                 System.out.println("Вам доступно сидячее место!");
             }
             if (passengerNumber > 60 && passengerNumber <= 102) {
@@ -61,6 +61,35 @@ public class Main {
             }
         } else {
             System.out.println("Мест больше нет!");
+        }
+        System.out.println("Task 7");
+        int one = 3001;
+        int two = 3000;
+        int three = 300;
+
+        if (one > two && three > two) {
+            System.out.println("Число two со значением " + two + " - самое маленькое!");
+            if (one > three) {
+                System.out.println("Число one со значением " + one + " - самое большое!");
+            } else {
+                System.out.println("Число three со значением " + three + " - самое большое!");
+            }
+        }
+        if (two > one && three > one) {
+            System.out.println("Число one со значением " + one + " - самое маленькое!");
+            if (two > three) {
+                System.out.println("Число two со значением " + two + " - самое большое!");
+            } else {
+                System.out.println("Число three со значением " + three + " - самое большое!");
+            }
+        }
+        if (two > three && one > three) {
+            System.out.println("Число three со значением " + three + " - самое маленькое!");
+            if (two > one) {
+                System.out.println("Число two со значением " + two + " - самое большое!");
+            } else {
+                System.out.println("Число one со значением " + one + " - самое большое!");
+            }
         }
 
     }
