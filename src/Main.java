@@ -8,7 +8,8 @@ public class Main {
             System.out.println("Если возраст человек равен " + age + ", то он не совершеннолетний, нужно немного подождать");
         }
         System.out.println("Task 2");
-        int temp = 4;
+        int temp = 10;
+        System.out.println("На улице " + temp + " градусов");
         if (temp < 5) {
             System.out.println("На улице холодно, нужно надеть шапку");
         } else {
