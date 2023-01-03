@@ -41,7 +41,7 @@ public class Main {
         if (rideAge >= 5) {
             System.out.println("Если возраст ребенка равен " + rideAge);
         } else {
-            System.out.println("Если возраст ребенка равен " + rideAge + ", то ему нельзя кататься");
+            System.out.println("Если возраст ребенка равен " + rideAge + ", то ему нельзя кататься!");
         }
         if (rideAge >= 5 && rideAge <= 14 ) {
             System.out.println(", то ему можно кататься в сопровождении родителей");
