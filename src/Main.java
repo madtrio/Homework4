@@ -49,5 +49,19 @@ public class Main {
         if (rideAge > 14) {
             System.out.println(", то ему можно кататься без сопровождения родителей");
         }
+        System.out.println("Task 6");
+        int passengerNumber = 1;
+        if (passengerNumber <= 102) {
+            System.out.println("Заходите! В вагоне еще поместится " + (102 - passengerNumber) + " пассажиров");
+            if (passengerNumber <= 60 ) {
+                System.out.println("Вам доступно сидячее место!");
+            }
+            if (passengerNumber > 60 && passengerNumber <= 102) {
+                System.out.println("Вам доступно стоячее место, к сожалению, все сидячие заняты!");
+            }
+        } else {
+            System.out.println("Мест больше нет!");
+        }
+
     }
 }
