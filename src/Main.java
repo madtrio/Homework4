@@ -26,14 +26,11 @@ public class Main {
         int lage = 10;
         if (lage >= 2 && lage <= 6) {
             System.out.println("Если возраст человека равен " + lage + ", то ему надо ходить в детский сад");
-        }
-        if (lage >= 7 && lage <= 18) {
+        } else if (lage >= 7 && lage <= 18) {
             System.out.println("Если возраст человека равен " + lage + ", то ему надо ходить в школу");
-        }
-        if (lage > 18 && lage < 24) {
+        } else if  (lage > 18 && lage < 24) {
             System.out.println("Если возраст человека равен " + lage + ", то ему надо ходить в университет");
-        }
-        if (lage > 24) {
+        } else if (lage > 24) {
             System.out.println("Если возраст человека равен " + lage + ", то ему надо ходить на работу");
         }
         System.out.println("Task 5");
