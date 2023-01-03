@@ -22,5 +22,20 @@ public class Main {
         } else {
             System.out.println("Если скорость " + speed + ", то можно ехать спокойно");
         }
+        System.out.println("Task 4");
+        int lage = 75;
+        if (lage >=2 && lage <=6) {
+            System.out.println("Если возраст человека равен " + lage + ", то ему надо ходить в детский сад");
+        }
+        if (lage >=7 && lage <=18) {
+            System.out.println("Если возраст человека равен " + lage + ", то ему надо ходить в школу");
+        }
+        if (lage >18 && lage <24) {
+            System.out.println("Если возраст человека равен " + lage + ", то ему надо ходить в университет");
+        }
+        if (lage >=24) {
+            System.out.println("Если возраст человека равен " + lage + ", то ему надо ходить на работу");
+        }
+        System.out.println("Task 5");
     }
 }
